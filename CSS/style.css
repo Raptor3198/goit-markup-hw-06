@@ -1,0 +1,23 @@
+.wrapper {
+  background-color: white;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+head {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+.header {
+  align-items: center;
+  gap: 93px;
+  flex-direction: row;
+  padding: 25px 0 24px 0;
+  display: flex;
+}
