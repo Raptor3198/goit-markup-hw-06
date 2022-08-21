@@ -21,9 +21,9 @@ body {
 }
 
 .h1background {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
+  /* position: absolute; */
+  /* width: 1600px;
+  height: 600px; */
   background: #2f303a;
 }
 
