@@ -25,6 +25,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 93px;
   padding: 24px 0 25px 0;
 }
