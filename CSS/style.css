@@ -29,6 +29,7 @@ body {
 }
 
 .header {
+  flex-basis: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,6 +52,8 @@ body {
 }
 
 .h1background {
+  align-items: center;
+  justify-content: center;
   width: 1600px;
   height: 600px;
   background: #2f303a;
