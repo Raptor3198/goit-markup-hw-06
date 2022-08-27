@@ -42,10 +42,11 @@ body {
 }
 
 .h1background {
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  padding: 200px;
   width: 1600px;
   height: 600px;
+  height: auto;
   background: #2f303a;
 }
 
@@ -103,10 +104,6 @@ body {
 
 .contact .contact1 {
   text-decoration: none;
-  /* width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -190,6 +187,11 @@ h5 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+}
+
+.descriptions {
+  display: flex;
+  list-style: none;
 }
 
 .h5-description {
