@@ -25,6 +25,10 @@ body {
   display: block;
 }
 
+.section {
+  padding: 94px 0 94px 0;
+}
+
 .header-border {
   border-bottom: 1px solid #ececec;
 }
@@ -143,10 +147,8 @@ body {
   color: var(--logo-color1);
 }
 
-.contact .contact3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+.footer-mail {
+  margin: 9px 0 0 0;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -162,15 +164,16 @@ body {
   margin-left: auto;
 }
 
-.contact .contact3:hover {
+.footer-mail:hover {
   color: var(--hover-color);
 }
 
-.contact .contact3:focus {
+.footer-mail:focus {
   color: var(--logo-color1);
 }
 
-.contact .contact4 {
+.footer-tel {
+  margin: 9px 0 0 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -181,11 +184,11 @@ body {
   color: var(--footer-logo);
 }
 
-.contact .contact4:hover {
+.footer-tel:hover {
   color: var(--hover-color);
 }
 
-.contact .contact4:focus {
+.footer-tel:focus {
   color: var(--logo-color1);
 }
 
@@ -198,12 +201,11 @@ h5 {
 }
 
 .descriptions {
-  padding: 0px;
+  padding-inline-start: 0px;
   display: flex;
   list-style: none;
   flex-direction: row;
   gap: 30px;
-  justify-content: center;
 }
 
 .h5-description {
@@ -229,7 +231,8 @@ h4 {
 
 .h2 {
   text-align: center;
-  margin: 94px 0 0 0;
+  padding: 0px;
+  margin: 0 0 50px 0;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -247,11 +250,9 @@ h4 {
 }
 
 .work {
-  margin: 50px 0 0 0;
   list-style: none;
   display: flex;
   flex-direction: row;
-  padding: 0 0 94px 0;
   justify-content: space-between;
 }
 
@@ -334,14 +335,17 @@ h4 {
 
 .footer {
   padding: 60px;
-  height: 252px;
   background: var(--background-color);
 }
 
-.footer-container {
+.footer-contact {
+  padding-inline-start: 0px;
+  text-align: left;
+  list-style: none;
 }
 
-address {
+.footer address {
+  margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
