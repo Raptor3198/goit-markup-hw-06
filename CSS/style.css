@@ -215,18 +215,27 @@ h5 {
   color: var(--text-color);
 }
 
-h4 {
+.product-card-header {
+  margin: 20px 24px 4px 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
 
-.h4-description {
+.product-card-description {
+  margin: 4px 24px 20px 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.product-card {
+  border: 1px solid #eeeeee;
+  flex-basis: calc((100% - 90px) / 4);
+  height: 404px;
+  margin: 0;
 }
 
 .h2 {
@@ -300,7 +309,7 @@ h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  color: var(--body-background-color);
+  color: var(--h1-color);
   cursor: pointer;
   width: 200px;
   height: 50px;
@@ -331,6 +340,26 @@ h4 {
   color: var(--body-background-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-buttons {
+  padding: 94px 0 0 0;
+  gap: 8px;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding-inline-start: 40px;
+}
+
+.product {
+  padding-inline-start: 0px;
+  gap: 30px;
+  box-sizing: border-box;
+  margin: 50px 0 94px 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer {
