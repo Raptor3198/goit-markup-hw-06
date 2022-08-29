@@ -13,16 +13,22 @@
   --body-background-color: #e5e5e5;
 }
 
-.wrapper {
-  width: 1600px;
-  margin: 0 auto;
-}
-
 body {
   background-color: var(--h1-color);
   display: block;
   font-family: "Roboto", "Raleway";
   display: block;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
 }
 
 .section {
@@ -224,18 +230,12 @@ h5 {
 }
 
 .product-card-description {
+  border-spacing: 50px;
   margin: 4px 24px 20px 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
-
-.product-card {
-  border: 1px solid #eeeeee;
-  flex-basis: calc((100% - 90px) / 4);
-  height: 404px;
-  margin: 0;
 }
 
 .h2 {
@@ -277,18 +277,18 @@ h5 {
   flex-direction: row;
   list-style: none;
   justify-content: space-between;
-  padding-inline-start: 0px;
 }
 
 .team-background {
+  width: 1600px;
   background-color: var(--button-shadow);
   padding: 94px 0;
 }
 
 .team-card-name {
+  margin: 30px 0 10px 0;
   background-color: #ffffff;
   text-align: center;
-  margin: 30px 0 10px 0;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -296,6 +296,7 @@ h5 {
 }
 
 .team-card-specialty {
+  margin: 0 0 30px 0;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
@@ -352,7 +353,6 @@ h5 {
 }
 
 .product {
-  padding-inline-start: 0px;
   gap: 30px;
   box-sizing: border-box;
   margin: 50px 0 94px 0;
@@ -363,6 +363,7 @@ h5 {
 }
 
 .footer {
+  width: 1600px;
   padding: 60px;
   background: var(--background-color);
 }
