@@ -17,7 +17,6 @@ body {
   background-color: var(--h1-color);
   display: block;
   font-family: "Roboto", "Raleway";
-  display: block;
 }
 
 ul,
@@ -56,6 +55,8 @@ h5 {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .h1background {
@@ -222,20 +223,29 @@ h5 {
 }
 
 .product-card-header {
-  margin: 20px 24px 4px 24px;
+  padding: 20px 24px 4px 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+img {
+  display: block;
 }
 
 .product-card-description {
   border-spacing: 50px;
-  margin: 4px 24px 20px 24px;
+  padding: 4px 24px 20px 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .h2 {
@@ -280,7 +290,6 @@ h5 {
 }
 
 .team-background {
-  width: 1600px;
   background-color: var(--button-shadow);
   padding: 94px 0;
 }
@@ -363,7 +372,6 @@ h5 {
 }
 
 .footer {
-  width: 1600px;
   padding: 60px;
   background: var(--background-color);
 }
