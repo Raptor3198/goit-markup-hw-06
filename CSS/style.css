@@ -73,6 +73,14 @@ h5 {
   background-image: url("/images/img.jpg");
 }
 
+.icon-envelope {
+  margin: 0 10px 0 0;
+}
+
+.icon-smartphone {
+  margin: 0 10px 0 0;
+}
+
 .logo {
   box-sizing: border-box;
   text-decoration: none;
