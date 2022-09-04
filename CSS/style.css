@@ -46,6 +46,10 @@ h5 {
   padding: 24px 0 25px 0;
 }
 
+.people-background {
+  display: block;
+}
+
 .page-links {
   display: flex;
   flex-direction: row;
@@ -66,6 +70,7 @@ h5 {
   height: 600px;
   height: auto;
   background: #2f303a;
+  background-image: url("/images/img.jpg");
 }
 
 .logo {
