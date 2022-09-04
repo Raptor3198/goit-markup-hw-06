@@ -81,6 +81,12 @@ h5 {
   margin: 0 10px 0 0;
 }
 
+.icon-antenna {
+  padding: 25px 102.34px 25px 102.34px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .logo {
   box-sizing: border-box;
   text-decoration: none;
