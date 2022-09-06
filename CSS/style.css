@@ -12,6 +12,7 @@
   --footer-logo: #ffffff99;
   --body-background-color: #e5e5e5;
   --contact-icon-color: #757575;
+  --media-icon-fill: #afb1b8;
 }
 
 body {
@@ -130,6 +131,65 @@ h5 {
   background: #f5f4fa;
   border-radius: 4px;
   padding: 30.23px 115.17px 29.11px 100px;
+}
+
+.instagram {
+  width: 40px;
+  height: 40px;
+  fill: var(--media-icon-fill);
+}
+
+.instagram:hover {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.twitter {
+  width: 40px;
+  height: 40px;
+  fill: var(--media-icon-fill);
+}
+
+.twitter:hover {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.facebook {
+  width: 40px;
+  height: 40px;
+  fill: var(--media-icon-fill);
+}
+
+.facebook:hover {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.twitter:hover {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.linkedin {
+  width: 40px;
+  height: 40px;
+  fill: var(--media-icon-fill);
+}
+
+.linkedin:hover {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -369,7 +429,7 @@ img {
 }
 
 .team-card-specialty {
-  margin: 0 0 30px 0;
+  margin: 0 0 16px 0;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
