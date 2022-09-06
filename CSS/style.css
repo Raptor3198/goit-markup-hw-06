@@ -508,6 +508,10 @@ img {
   list-style: none;
 }
 
+.footer-wrap {
+  display: flex;
+}
+
 .footer address {
   margin-top: 20px;
   font-weight: 400;
