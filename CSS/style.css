@@ -512,6 +512,32 @@ img {
   display: flex;
 }
 
+.footer-social {
+  display: block;
+  margin: 12px 0 40px 70px;
+}
+
+.footer-social-media {
+  width: 40px;
+  height: 40px;
+  fill: var(--h1-color);
+  background-color: #ffffff 10%;
+  border-radius: 50%;
+}
+
+.footer-social-media:hover {
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.join-us {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--h1-color);
+}
+
 .footer address {
   margin-top: 20px;
   font-weight: 400;
