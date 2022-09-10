@@ -103,6 +103,7 @@ h5 {
   margin-top: 94px;
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .antenna {
@@ -110,7 +111,7 @@ h5 {
   border-radius: 4px;
   width: 270px;
   height: 120px;
-  padding: 25px 102.34px 25px 102.34px;
+  padding: 25px 100px 25px 100px;
 }
 
 .clock {
@@ -118,7 +119,7 @@ h5 {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 101.5px 25px 101.5px;
+  padding: 25px 100px 25px 100px;
 }
 
 .diagram {
@@ -126,7 +127,7 @@ h5 {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 33.2px 100px 33.11px 100px;
+  padding: 25px 100px 25px 100px;
 }
 
 .astronaut {
@@ -134,7 +135,7 @@ h5 {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 30.23px 115.17px 29.11px 100px;
+  padding: 25px 100px 25px 100px;
 }
 
 .instagram {
@@ -191,8 +192,10 @@ h5 {
   border-radius: 50%;
 }
 
-.social-media-icons {
+.social-list {
+  list-style: none;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
@@ -250,7 +253,7 @@ h5 {
   color: var(--logo-color1);
 }
 
-.contact .contact1 {
+.contact1 {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -259,15 +262,17 @@ h5 {
   color: var(--contact-color);
 }
 
-.contact .contact1:hover {
+.contact1:hover {
   color: var(--logo-color1);
+  fill: var(--hover-color);
 }
 
-.contact .contact1:focus {
+.contact1:focus {
   color: var(--logo-color1);
+  fill: var(--hover-color);
 }
 
-.contact .contact2 {
+.contact2 {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -276,12 +281,14 @@ h5 {
   text-decoration: none;
 }
 
-.contact .contact2:hover {
+.contact2:hover {
   color: var(--hover-color);
+  fill: var(--hover-color);
 }
 
-.contact .contact2:focus {
+.contact2:focus {
   color: var(--logo-color1);
+  fill: var(--hover-color);
 }
 
 .footer-mail {
@@ -569,13 +576,14 @@ img {
 .our-clients {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .footer address {
+  font-style: normal;
   margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--body-background-color);
 }
