@@ -262,9 +262,12 @@ h5 {
   color: var(--contact-color);
 }
 
-.contact1:hover {
-  color: var(--logo-color1);
+.contact1:hover .icon-envelope {
   fill: var(--hover-color);
+}
+
+.contact1:hover {
+  color: var(--hover-color);
 }
 
 .contact1:focus {
@@ -283,6 +286,9 @@ h5 {
 
 .contact2:hover {
   color: var(--hover-color);
+}
+
+.contact2:hover .icon-smartphone {
   fill: var(--hover-color);
 }
 
