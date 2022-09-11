@@ -84,19 +84,9 @@ h5 {
   fill: var(--contact-icon-color);
 }
 
-.icon-envelope:hover,
-.icon-envelope:focus {
-  fill: var(--hover-color);
-}
-
 .icon-smartphone {
   margin: 0 10px 0 0;
   fill: var(--contact-icon-color);
-}
-
-.icon-smartphone:hover,
-.icon-smartphone:focus {
-  fill: var(--hover-color);
 }
 
 .icon-theme {
@@ -192,6 +182,12 @@ h5 {
   border-radius: 50%;
 }
 
+.linkedin:focus .icon-linkedin {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
 .social-list {
   list-style: none;
   display: flex;
@@ -275,6 +271,10 @@ h5 {
   fill: var(--hover-color);
 }
 
+.contact1:focus .icon-envelope {
+  fill: var(--hover-color);
+}
+
 .contact2 {
   font-weight: 500;
   font-size: 14px;
@@ -294,6 +294,10 @@ h5 {
 
 .contact2:focus {
   color: var(--logo-color1);
+  fill: var(--hover-color);
+}
+
+.contact2:focus .icon-smartphone {
   fill: var(--hover-color);
 }
 
