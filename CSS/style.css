@@ -164,7 +164,31 @@ h5 {
   border-radius: 50%;
 }
 
-.twitter:hover {
+.social-focus:focus .instagram {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.social-focus:focus .twitter {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.social-focus:focus .facebook {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.social-focus:focus .linkedin {
+  fill: var(--h1-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.social-focus:focus .footer-social-media {
   fill: var(--h1-color);
   background-color: var(--hover-color);
   border-radius: 50%;
@@ -572,6 +596,12 @@ img {
 }
 
 .icon-logo:hover {
+  fill: var(--hover-color);
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+
+.client:focus .icon-logo {
   fill: var(--hover-color);
   border: 1px solid #2196f3;
   border-radius: 4px;
