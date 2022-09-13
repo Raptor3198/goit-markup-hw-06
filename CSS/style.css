@@ -592,6 +592,10 @@ img {
   color: var(--body-background-color);
 }
 
+.work-box {
+  position: relative;
+}
+
 .work-name-box {
   display: block;
   position: absolute;
