@@ -195,7 +195,7 @@ h5 {
   color: var(--body-background-color);
 }
 
-.page-links .link {
+.link {
   text-decoration: none;
   list-style: none;
   color: var(--link-color);
@@ -216,6 +216,22 @@ h5 {
 .link:focus {
   color: var(--logo-color1);
   outline: none;
+}
+
+.link-active {
+  position: relative;
+  color: var(--hover-color);
+}
+
+.link-active::after {
+  position: absolute;
+  background-color: var(--hover-color);
+  border-radius: 2px;
+  content: "";
+  width: 100%;
+  height: 4px;
+  display: block;
+  top: 46px;
 }
 
 .contact1 {
@@ -574,4 +590,55 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--body-background-color);
+}
+
+.modal {
+  position: absolute;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  max-width: 528px;
+  max-height: 581px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  min-height: 581px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--h1-color);
+  cursor: pointer;
+  margin: 8px 8px 0 0;
+}
+
+.backdrop {
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000033;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms ease-in-out;
 }
