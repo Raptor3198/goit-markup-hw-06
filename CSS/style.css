@@ -621,7 +621,7 @@ img {
   padding: 49px 45px 49px 25px;
 }
 
-.overlay:hover {
+li:hover .overlay {
   transform: translateY(0);
 }
 
